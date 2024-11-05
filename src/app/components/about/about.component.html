@@ -1,0 +1,44 @@
+<app-header></app-header>
+<h2>Welcome to About Page</h2>
+<ul>
+    <li>{{courses[0]}}</li>
+    <li>{{getDate()}}</li>
+    <li>{{"Welcome to CodeFlix"}}</li>
+    <li>{{ courseList }}</li>
+    <li>{{ 2+3-100 }}</li>
+</ul>
+
+<form action="">
+    <input [type]="typeX">
+    <button (click)="type('text')" type="button">Show</button>
+    <button (click)="type('password')" type="button">Hide</button>
+</form>
+
+<div class="container">
+    <img 
+    src="../../../assets/{{imgName}}"
+    alt=""
+    style="width: 50px; height: 50px"
+    />
+    <button>
+        <img 
+        (click)="img('JS.png')"
+        src="../../../assets/JS.png"
+        alt=""
+        style="width: 50px; height: 50px"
+        />
+        <img 
+        (click)="img('mean.png')"
+        src="../../../assets/mean.png"
+        alt=""
+        style="width: 50px; height: 50px"
+        />
+        <img 
+        (click)="img('php.png')"
+        src="../../../assets/php.png"
+        alt=""
+        style="width: 50px; height: 50px"
+        />
+    </button>
+</div>
+<app-footer></app-footer>

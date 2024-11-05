@@ -1,0 +1,30 @@
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 0.5rem
+}
+
+/* Custom navbar theme styles*/
+.navbar-custom{
+    background-color:  #000;
+    color: #ff9900f6;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-link {
+    color: #ff9900f6;
+}
+
+.navbar-custom .navbar-link:hover,
+.navbar-custom .navbar-link:focus {
+    color: #ff9900f6;
+}
+
+.navbar-custom .navbar-nav .nav-item.active .nav-link,
+.navbar-custom .navbar-nav .nav-item.active .nav-link:hover {
+    color:#fff;
+    background-color: #ff9900f6;
+}
